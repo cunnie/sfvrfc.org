@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background shadow ellipse -->
+  <ellipse cx="32" cy="32" rx="30" ry="20" transform="rotate(-45 32 32)" 
+    fill="#1e3a8a" />
+  
+  <!-- Foreground ellipse -->
+  <ellipse cx="32" cy="32" rx="28" ry="18" transform="rotate(-45 32 32)" 
+    fill="#dc2626" />
+    
+  <!-- Middle stripe -->
+  <rect x="30" y="12" width="4" height="40" transform="rotate(-45 32 32)"
+    fill="white" />
+    
+  <!-- Seam lines -->
+  <line x1="18" y1="18" x2="46" y2="46" stroke="white" stroke-width="1" />
+  <line x1="46" y1="18" x2="18" y2="46" stroke="white" stroke-width="1" />
+</svg>
